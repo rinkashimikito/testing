@@ -1,0 +1,11 @@
+.filterBar {
+  margin: 1em auto;
+}
+
+.filterBar label {
+    margin-right: 8px;
+}
+
+.header-logo {
+  height: 80px;
+}

@@ -1,0 +1,40 @@
+li {
+    padding: 5px;
+    line-height: 1.6em;
+    border: 1px solid lightblue;
+    margin: 4px auto auto;
+    text-align: left;
+}
+
+li.completed .item-content {
+    text-decoration: line-through;
+}
+
+li span {
+    margin-right: 8px;
+}
+
+.icon {
+    position: relative;
+    cursor: pointer;
+    top: 1px;
+    font-size: 1.4em;
+}
+
+.icon.delete-icon {
+    float: right;
+}
+
+.icon.delete-icon:before {
+    content: "\002716";
+    color: #ff0000;
+}
+
+.icon.complete-icon:before {
+    content: "\002714";
+    color: #00ff00;
+}
+
+.completed .icon.complete-icon:before {
+    color: #aaa;
+}

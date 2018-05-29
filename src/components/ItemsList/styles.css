@@ -1,0 +1,10 @@
+.itemsList-ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 16px;
+  max-width: 800px;
+}
+
+.itemsList-ul li {
+  padding: 5px;
+}
